@@ -60,6 +60,12 @@ class _SingUpState extends State<SingUp> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            CircleAvatar(
+              radius: 40,
+              backgroundColor: Colors.transparent,
+              backgroundImage: AssetImage("image/food.png"),
+            ),
+            SizedBox(height: 10,),
             TxeFiled(
               txt: "Entar the email",
               Controller: emailControlar,
@@ -74,7 +80,7 @@ class _SingUpState extends State<SingUp> {
             ),
             CupertinoButton(
                 child: Container(
-                  height: 70,
+                  height: 50,
                   width: 350,
                   alignment: Alignment.center,
                   decoration: BoxDecoration(

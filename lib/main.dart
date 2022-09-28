@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/services.dart';
 import 'package:food/firebase_options.dart';
+import 'package:food/page/home.dart';
 import 'package:food/page/login_page.dart';
+import 'package:food/page/order.dart';
 import 'package:food/page/signup_page.dart';
+import 'package:food/page/user.dart';
 
 
 

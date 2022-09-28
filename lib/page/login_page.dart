@@ -60,11 +60,17 @@ class _LogInState extends State<LogIn> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            CircleAvatar(
+              radius: 50,
+              backgroundColor: Colors.transparent,
+              backgroundImage: AssetImage("image/food.png"),
+            ),
+            SizedBox(height: 10,),
             TxeFiled(txt: "Entar the email",Controller: emailControlar,),
             TxeFiled(txt: "Password",Controller: passwordControlar,),
             CupertinoButton(
                 child: Container(
-                  height: 70,
+                  height: 60,
                   width: 350,
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
